@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+:root {
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      max-width: 400px;
+      margin: 0 auto;
+      height: 0px;
+    }
+    label, input {
+        margin-bottom: 15px;
+        
+    }
+  }
+body {
+    color: white;
+    background-color: #262626;
+}
+.container {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contagem {
+    background-color: #212121;
+    width: 100%;
+    max-width: 990px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.contagem > h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+label, input {
+    display: flexbox;
+    flex-direction: column;
+    gap: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+input {
+    box-shadow: 2px 2px black;
+}
+input:focus {
+    outline: 2px solid #239be0
+}
+button {
+    font-weight: 500;
+    margin: 20px;
+    width: 20%;
+    height: 20%;
+    background-color: #c5c5c5;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 1px 2px black;
+}
+button:hover {
+    background-color: white;
+    
+}

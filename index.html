@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Regressivo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <section class="contagem">
+            <h1>Contador Regressivo</h1>
+            <label for="hoursInput">Horas:</label>
+            <input type="number" id="hoursInput" class="hoursInput">
+
+            <label for="minutesInput">Minutos:</label>
+            <input type="number" id="minutesInput" class="minutesInput">
+
+            <label for="secondsInput">Segundos:</label>
+            <input type="number" id="secondsInput" class="secondsInput">
+            <button onclick="startCountdown()">Iniciar Contagem</button>
+            <h2 class="countdownDisplay"></h2>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
